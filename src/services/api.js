@@ -1,17 +1,23 @@
-const API_URL = "https://fakestoreapi.com";
+const API_URL = import.meta.env.VITE_PRODUCT_API_URL;
 
 export const getProducts = async () => {
-  const response = await fetch(`${API_URL}/products`);
+  const response = await fetch(
+    `${API_URL}/products?limit=100`
+  );
 
   if (!response.ok) {
     throw new Error("Failed to fetch products");
   }
 
-  return response.json();
+  const data = await response.json();
+
+  return data.products;
 };
 
 export const getProduct = async (id) => {
-  const response = await fetch(`${API_URL}/products/${id}`);
+  const response = await fetch(
+    `${API_URL}/products/${id}`
+  );
 
   if (!response.ok) {
     throw new Error("Failed to fetch product");
@@ -21,7 +27,9 @@ export const getProduct = async (id) => {
 };
 
 export const getCategories = async () => {
-  const response = await fetch(`${API_URL}/products/categories`);
+  const response = await fetch(
+    `${API_URL}/products/category-list`
+  );
 
   if (!response.ok) {
     throw new Error("Failed to fetch categories");

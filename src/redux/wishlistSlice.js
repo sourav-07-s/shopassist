@@ -1,7 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const savedWishlist =
-  JSON.parse(localStorage.getItem("shopassist-wishlist")) || [];
+  JSON.parse(
+    localStorage.getItem("shopassist-wishlist")
+  ) || [];
 
 const wishlistSlice = createSlice({
   name: "wishlist",
@@ -32,6 +34,7 @@ const wishlistSlice = createSlice({
   },
 });
 
-export const { toggleWishlist } = wishlistSlice.actions;
+export const { toggleWishlist } =
+  wishlistSlice.actions;
 
 export default wishlistSlice.reducer;

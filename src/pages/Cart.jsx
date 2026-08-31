@@ -29,7 +29,7 @@ function Cart() {
     return (
       <main className="flex min-h-screen items-center justify-center bg-slate-950 px-6 pt-32 text-white">
 
-        <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-12 text-center shadow-2xl backdrop-blur-xl">
+        <div className="rounded-3xl border border-white/10 bg-white/4 p-12 text-center shadow-2xl backdrop-blur-xl">
 
           <div className="text-7xl">
             🛒
@@ -81,7 +81,7 @@ function Cart() {
             {cartItems.map((item) => (
               <div
                 key={item.id}
-                className="group flex flex-col gap-5 rounded-2xl border border-white/10 bg-white/[0.04] p-5 shadow-xl backdrop-blur-xl transition hover:border-indigo-500/20 hover:bg-white/[0.06] sm:flex-row sm:items-center"
+                className="group flex flex-col gap-5 rounded-2xl border border-white/10 bg-white/4 p-5 shadow-xl backdrop-blur-xl transition hover:border-indigo-500/20 hover:bg-white/6 sm:flex-row sm:items-center"
               >
 
                 <div className="flex h-28 w-28 shrink-0 items-center justify-center rounded-xl border border-white/5 bg-black/20 p-3">
@@ -169,7 +169,7 @@ function Cart() {
           </div>
 
           {/* Summary */}
-          <div className="h-fit rounded-3xl border border-white/10 bg-white/[0.05] p-6 shadow-2xl backdrop-blur-2xl">
+          <div className="h-fit rounded-3xl border border-white/10 bg-white/5 p-6 shadow-2xl backdrop-blur-2xl">
 
             <h2 className="text-xl font-black">
               Order Summary

@@ -47,14 +47,14 @@ function Footer() {
 
               <a
                 href="#"
-                className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.04] text-sm text-slate-400 backdrop-blur-xl transition hover:border-indigo-500/30 hover:bg-indigo-500/10 hover:text-indigo-400"
+                className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/4 text-sm text-slate-400 backdrop-blur-xl transition hover:border-indigo-500/30 hover:bg-indigo-500/10 hover:text-indigo-400"
               >
                 𝕏
               </a>
 
               <a
                 href="https://www.linkedin.com/in/sourav-sahoo-74088432b/"
-                className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.04] text-sm text-slate-400 backdrop-blur-xl transition hover:border-indigo-500/30 hover:bg-indigo-500/10 hover:text-indigo-400"
+                className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/4 text-sm text-slate-400 backdrop-blur-xl transition hover:border-indigo-500/30 hover:bg-indigo-500/10 hover:text-indigo-400"
               >
                 in
               </a>
@@ -64,7 +64,7 @@ function Footer() {
   target="_blank"
   rel="noopener noreferrer"
   aria-label="GitHub"
-  className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.04] text-slate-400 backdrop-blur-xl transition hover:border-indigo-500/30 hover:bg-indigo-500/10 hover:text-indigo-400"
+  className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/4 text-slate-400 backdrop-blur-xl transition hover:border-indigo-500/30 hover:bg-indigo-500/10 hover:text-indigo-400"
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -177,7 +177,7 @@ function Footer() {
         </div>
 
         {/* Newsletter Glass Card */}
-        <div className="mb-10 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] p-6 backdrop-blur-xl">
+        <div className="mb-10 overflow-hidden rounded-2xl border border-white/10 bg-white/4 p-6 backdrop-blur-xl">
 
           <div className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
 

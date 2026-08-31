@@ -113,10 +113,10 @@ function ChatBot() {
     <>
       {/* Chat Window */}
       {isOpen && (
-        <div className="fixed bottom-24 right-4 z-[60] flex h-[520px] w-[calc(100%-2rem)] max-w-sm flex-col overflow-hidden rounded-3xl border border-white/10 bg-slate-900/90 shadow-2xl shadow-black/60 backdrop-blur-2xl sm:right-6">
+        <div className="fixed bottom-24 right-4 z-60 flex h-130 w-[calc(100%-2rem)] max-w-sm flex-col overflow-hidden rounded-3xl border border-white/10 bg-slate-900/90 shadow-2xl shadow-black/60 backdrop-blur-2xl sm:right-6">
 
           {/* Header */}
-          <div className="border-b border-white/10 bg-white/[0.04] p-5">
+          <div className="border-b border-white/10 bg-white/4 p-5">
 
             <div className="flex items-center justify-between">
 
@@ -169,7 +169,7 @@ function ChatBot() {
                   className={`max-w-[82%] rounded-2xl px-4 py-3 text-sm leading-5 ${
                     message.sender === "user"
                       ? "rounded-br-sm bg-indigo-600 text-white shadow-lg shadow-indigo-600/10"
-                      : "rounded-bl-sm border border-white/10 bg-white/[0.05] text-slate-300"
+                      : "rounded-bl-sm border border-white/10 bg-white/5 text-slate-300"
                   }`}
                 >
                   {message.text}
@@ -181,7 +181,7 @@ function ChatBot() {
           </div>
 
           {/* Quick questions */}
-          <div className="border-t border-white/5 bg-white/[0.02] px-3 py-2">
+          <div className="border-t border-white/5 bg-white/2 px-3 py-2">
 
             <div className="flex gap-2 overflow-x-auto">
 
@@ -202,7 +202,7 @@ function ChatBot() {
           </div>
 
           {/* Input */}
-          <div className="flex gap-2 border-t border-white/10 bg-white/[0.03] p-3">
+          <div className="flex gap-2 border-t border-white/10 bg-white/3 p-3">
 
             <input
               type="text"
@@ -230,7 +230,7 @@ function ChatBot() {
       {/* Floating Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-5 right-5 z-[60] flex h-14 w-14 items-center justify-center rounded-full border border-white/10 bg-indigo-600 text-2xl shadow-2xl shadow-indigo-900/40 transition duration-300 hover:scale-110 hover:bg-indigo-500"
+        className="fixed bottom-5 right-5 z-60 flex h-14 w-14 items-center justify-center rounded-full border border-white/10 bg-indigo-600 text-2xl shadow-2xl shadow-indigo-900/40 transition duration-300 hover:scale-110 hover:bg-indigo-500"
       >
         {isOpen ? "×" : "💬"}
       </button>

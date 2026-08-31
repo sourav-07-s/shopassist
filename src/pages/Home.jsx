@@ -32,7 +32,7 @@ function Home() {
               Shop smarter.
               <br />
 
-              <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-indigo-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
                 Shop better.
               </span>
             </h1>
@@ -103,7 +103,7 @@ function Home() {
 
             <div className="absolute -inset-5 rounded-[3rem] bg-indigo-500/10 blur-3xl" />
 
-            <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.05] p-8 shadow-2xl backdrop-blur-2xl sm:p-12">
+            <div className="relative overflow-hidden rounded-4xl border border-white/10 bg-white/5 p-8 shadow-2xl backdrop-blur-2xl sm:p-12">
 
               <div className="absolute right-0 top-0 h-48 w-48 rounded-full bg-indigo-500/10 blur-3xl" />
 
@@ -172,7 +172,7 @@ function Home() {
         ].map((feature) => (
           <div
             key={feature.title}
-            className="group rounded-2xl border border-white/10 bg-white/[0.04] p-7 shadow-xl backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:border-indigo-400/20 hover:bg-white/[0.07]"
+            className="group rounded-2xl border border-white/10 bg-white/4 p-7 shadow-xl backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:border-indigo-400/20 hover:bg-white/[0.07]"
           >
 
             <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl border border-indigo-500/10 bg-indigo-500/10 text-2xl transition group-hover:scale-110">

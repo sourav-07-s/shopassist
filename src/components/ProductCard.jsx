@@ -22,7 +22,7 @@ function ProductCard({ product }) {
     "";
 
   return (
-    <div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.04] shadow-xl shadow-black/20 backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:border-indigo-500/30 hover:bg-white/[0.06]">
+    <div className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/4 shadow-xl shadow-black/20 backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:border-indigo-500/30 hover:bg-white/6">
 
       {/* Wishlist */}
       <button

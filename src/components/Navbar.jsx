@@ -98,7 +98,7 @@ function Navbar() {
             {/* Navigation */}
             <div
               ref={navRef}
-              className="relative flex items-center rounded-full border border-white/5 bg-white/[0.03] p-1 backdrop-blur-xl"
+              className="relative flex items-center rounded-full border border-white/5 bg-white/3 p-1 backdrop-blur-xl"
             >
 
               {/* Sliding Active Background */}

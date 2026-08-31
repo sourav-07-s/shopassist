@@ -104,7 +104,7 @@ function Products() {
         </div>
 
         {/* Search */}
-        <div className="mb-8 rounded-2xl border border-white/10 bg-white/[0.03] p-3 shadow-xl backdrop-blur-xl">
+        <div className="mb-8 rounded-2xl border border-white/10 bg-white/3 p-3 shadow-xl backdrop-blur-xl">
 
           <div className="flex flex-col gap-3 sm:flex-row">
 
@@ -188,7 +188,7 @@ function Products() {
         ) : (
           <div className="flex min-h-[40vh] items-center justify-center">
 
-            <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-12 text-center backdrop-blur-xl">
+            <div className="rounded-3xl border border-white/10 bg-white/3 p-12 text-center backdrop-blur-xl">
 
               <div className="text-5xl">
                 🔎

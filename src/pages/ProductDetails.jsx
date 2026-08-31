@@ -89,25 +89,25 @@ function ProductDetails() {
 
         <Link
           to="/products"
-          className="inline-flex rounded-xl border border-white/10 bg-white/[0.04] px-4 py-2 text-sm font-semibold text-indigo-400 backdrop-blur-xl hover:bg-white/[0.08]"
+          className="inline-flex rounded-xl border border-white/10 bg-white/4 px-4 py-2 text-sm font-semibold text-indigo-400 backdrop-blur-xl hover:bg-white/8"
         >
           ← Back to Products
         </Link>
 
-        <div className="mt-8 overflow-hidden rounded-3xl border border-white/10 bg-white/[0.04] p-6 shadow-2xl backdrop-blur-2xl md:p-10">
+        <div className="mt-8 overflow-hidden rounded-3xl border border-white/10 bg-white/4 p-6 shadow-2xl backdrop-blur-2xl md:p-10">
 
           <div className="grid gap-12 md:grid-cols-2">
 
             {/* Images */}
             <div>
 
-              <div className="flex min-h-[450px] items-center justify-center rounded-2xl border border-white/10 bg-slate-950/70 p-10">
+              <div className="flex min-h-112.5items-center justify-center rounded-2xl border border-white/10 bg-slate-950/70 p-10">
 
                 {mainImage ? (
                   <img
                     src={mainImage}
                     alt={product.title}
-                    className="max-h-[420px] max-w-full object-contain transition duration-500 hover:scale-105"
+                    className="max-h-105 max-w-full object-contain transition duration-500 hover:scale-105"
                   />
                 ) : (
                   <div className="text-center text-slate-500">

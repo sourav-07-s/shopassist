@@ -32,7 +32,7 @@ function Wishlist() {
         {wishlistItems.length === 0 ? (
           <div className="flex min-h-[45vh] items-center justify-center">
 
-            <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-12 text-center shadow-2xl backdrop-blur-xl">
+            <div className="rounded-3xl border border-white/10 bg-white/4 p-12 text-center shadow-2xl backdrop-blur-xl">
 
               <div className="text-7xl">
                 ❤️

@@ -1,17 +1,44 @@
-# React + Vite
+# ShopAssist 🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive **e-commerce web application** built with React.js, Redux Toolkit, Tailwind CSS, React Router, and REST API integration.
 
-Currently, two official plugins are available:
+The application allows users to browse products, view product details, manage their cart and wishlist, and interact with a rule-based shopping assistant.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🛒 Product browsing and product details
+- 🛍️ Cart management
+- ❤️ Wishlist functionality
+- 🔎 Dynamic product data using REST API
+- 🤖 Rule-based shopping assistant
+- 📱 Responsive user interface
+- ⚡ Centralized state management with Redux Toolkit
+- 🧭 Client-side navigation with React Router
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+- **React.js**
+- **JavaScript**
+- **Redux Toolkit**
+- **Tailwind CSS**
+- **React Router**
+- **REST API**
+- **Vite**
+- **Git & GitHub**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-# shopassist
+## 🔌 API Integration
+
+Product data is fetched from the **DummyJSON REST API** and rendered dynamically within the application.
+
+## 📂 Project Structure
+
+```text
+shopassist/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── store/
+│   └── ...
+├── package.json
+└── vite.config.js

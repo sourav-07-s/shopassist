@@ -18,8 +18,7 @@ React.js, Redux Toolkit, Tailwind CSS, React Router, REST API, Vite
    git clone https://github.com/sourav-07-s/shopassist.git
 2. Install dependencies
    npm install
-3. Copy `.env.example` to `.env` and fill in the values
-4. Start the dev server
+3. Start the dev server
    npm run dev
 
 ## What I learned

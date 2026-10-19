@@ -1,17 +1,31 @@
-# React + Vite
+# ShopAssist
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive e-commerce web app for browsing products, viewing details and managing a cart and wishlist.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Browse products and view product details
+- Add to cart and manage quantities
+- Wishlist management
+- In-app assistant for common questions (shipping, returns, payments)
+- Fully responsive layout
 
-## React Compiler
+## Tech stack
+React.js, Redux Toolkit, Tailwind CSS, React Router, REST API, Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Run locally
+1. Clone the repo
+   git clone https://github.com/sourav-07-s/shopassist.git
+2. Install dependencies
+   npm install
+3. Copy `.env.example` to `.env` and fill in the values
+4. Start the dev server
+   npm run dev
 
-## Expanding the Oxlint configuration
+## What I learned
+- Managing global state with Redux Toolkit
+- Structuring reusable React components
+- Fetching and displaying data from a REST API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-# shopassist
+## Author
+Sourav Sahoo | [LinkedIn](https://www.linkedin.com/in/sourav-sahoo-s/) | souravsahoo407@gmail.com

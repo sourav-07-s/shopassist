@@ -16,7 +16,7 @@
 [![Issues](https://img.shields.io/github/issues/sourav-07-s/shopassist?style=for-the-badge&color=6366F1)](https://github.com/sourav-07-s/shopassist/issues)
 [![License](https://img.shields.io/github/license/sourav-07-s/shopassist?style=for-the-badge&color=8B5CF6)](./LICENSE)
 
-### [🚀 Live Demo][(TODO_LIVE_URL)](https://shopassist-qgnd.vercel.app/) &nbsp;•&nbsp; [🐛 Report Bug](https://github.com/sourav-07-s/shopassist/issues) &nbsp;•&nbsp; [💡 Request Feature](https://github.com/sourav-07-s/shopassist/issues)
+### [🚀 Live Demo][(DEMO)](https://shopassist-qgnd.vercel.app/) &nbsp;•&nbsp; [🐛 Report Bug](https://github.com/sourav-07-s/shopassist/issues) &nbsp;•&nbsp; [💡 Request Feature](https://github.com/sourav-07-s/shopassist/issues)
 
 </div>
 

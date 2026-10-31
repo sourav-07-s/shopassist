@@ -1,30 +1,112 @@
-# ShopAssist
+<div align="center">
 
-A responsive e-commerce web app for browsing products, viewing details and managing a cart and wishlist.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,50:EF4444,100:EC4899&height=230&section=header&text=ShopAssist&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Your%20smart%20shopping%20companion&descAlignY=60&descSize=18" alt="ShopAssist banner" />
 
+# 🛒 ShopAssist
 
-## Features
-- Browse products and view product details
-- Add to cart and manage quantities
-- Wishlist management
-- In-app assistant for common questions (shipping, returns, payments)
-- Fully responsive layout
+**A shopping assistant app that helps users browse and find products more easily.**
 
-## Tech stack
-React.js, Redux Toolkit, Tailwind CSS, React Router, REST API, Vite
+<img src="https://skillicons.dev/icons?i=js,react,nodejs" alt="tech icons" />
 
-## Run locally
-1. Clone the repo
-   git clone https://github.com/sourav-07-s/shopassist.git
-2. Install dependencies
-   npm install
-3. Start the dev server
-   npm run dev
+<br/><br/>
 
-## What I learned
-- Managing global state with Redux Toolkit
-- Structuring reusable React components
-- Fetching and displaying data from a REST API
+[![Last Commit](https://img.shields.io/github/last-commit/sourav-07-s/shopassist?style=for-the-badge&color=F43F5E)](https://github.com/sourav-07-s/shopassist/commits/main)
+[![Stars](https://img.shields.io/github/stars/sourav-07-s/shopassist?style=for-the-badge&color=F59E0B)](https://github.com/sourav-07-s/shopassist/stargazers)
+[![Forks](https://img.shields.io/github/forks/sourav-07-s/shopassist?style=for-the-badge&color=22C55E)](https://github.com/sourav-07-s/shopassist/network/members)
+[![Issues](https://img.shields.io/github/issues/sourav-07-s/shopassist?style=for-the-badge&color=6366F1)](https://github.com/sourav-07-s/shopassist/issues)
+[![License](https://img.shields.io/github/license/sourav-07-s/shopassist?style=for-the-badge&color=8B5CF6)](./LICENSE)
 
-## Author
-Sourav Sahoo | [LinkedIn](https://www.linkedin.com/in/sourav-sahoo-s/) | souravsahoo407@gmail.com
+### [🚀 Live Demo][(TODO_LIVE_URL)](https://shopassist-qgnd.vercel.app/) &nbsp;•&nbsp; [🐛 Report Bug](https://github.com/sourav-07-s/shopassist/issues) &nbsp;•&nbsp; [💡 Request Feature](https://github.com/sourav-07-s/shopassist/issues)
+
+</div>
+
+---
+
+## 🖼️ Preview
+
+<!-- TODO: add a screenshot or GIF in /screenshots and update the path -->
+![Preview](screenshots/preview.png)
+
+---
+
+## ✨ Features
+
+- 🔹 Product browsing experience
+- 🔹 Helps users find what they need
+- 🔹 TODO: add cart/search/AI features if supported
+- 🔹 TODO: add auth if supported
+
+---
+
+## 🧱 Tech Stack
+
+| Layer | Technology | Purpose |
+|---|---|---|
+| Language | JavaScript | TODO: confirm frameworks |
+
+---
+
+## 📁 Project Structure
+
+```text
+TODO: paste your folder tree here
+```
+
+---
+
+## 🚀 Quick Start
+
+### ✅ Prerequisites
+- [Node.js](https://nodejs.org) 18 or newer
+
+### 1️⃣ Clone
+```bash
+git clone https://github.com/sourav-07-s/shopassist.git
+cd shopassist
+```
+
+### 2️⃣ Install and run
+```bash
+npm install
+npm start
+```
+🎉 Open <http://localhost:3000>
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] 🚀 Deploy the project online
+- [ ] 🎨 Improve the UI and add screenshots
+- [ ] 🧪 Add tests
+- [ ] 📱 Improve mobile responsiveness
+
+---
+
+## 🤝 Contributing
+
+Issues and pull requests are welcome. Fork the repo, create a branch (`git checkout -b feat/my-feature`), commit, and open a PR.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See [`LICENSE`](./LICENSE).
+
+---
+
+## 👨‍💻 Author
+
+<div align="center">
+
+**Sourav Sahoo**
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sourav-07-s)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sourav-sahoo-74088432b)
+[![Portfolio](https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge)](https://portfolio-i9vy.vercel.app)
+
+⭐ If you like this project, give it a star! ⭐
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,50:EF4444,100:EC4899&height=100&section=footer" alt="footer wave" />
+
+</div>

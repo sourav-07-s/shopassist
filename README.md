@@ -42,7 +42,7 @@
 
 | Layer | Technology | Purpose |
 |---|---|---|
-| Language | JavaScript | TODO: confirm frameworks |
+| Language | JavaScript | React | Tailwind |
 
 ---
 

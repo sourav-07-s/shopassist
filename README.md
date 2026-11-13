@@ -86,7 +86,7 @@ npm start
 
 ## 🤝 Contributing
 
-Issues and pull requests are welcome. Fork the repo, create a branch (`git checkout -b feat/my-feature`), commit, and open a PR.
+Issues and pull requests are welcome. Fork the repo, create a branch (`git checkout -b feat/my-feature`), commit, and open a PR .
 
 ---
 
